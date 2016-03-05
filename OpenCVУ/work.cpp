@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 		cv::CascadeClassifier cascadeSymbol1;
 	    
 		//car
-		bool cascadeSymbolLoad = cascadeSymbol.load("cars3.xml");
+		bool cascadeSymbolLoad = cascadeSymbol.load("cars.xml");
 		std::vector<cv::Rect> symbols;
 		cascadeSymbol.detectMultiScale(gray, symbols);
 		int array1[1234][2], zz = 0;
